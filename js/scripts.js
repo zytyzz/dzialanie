@@ -3,10 +3,7 @@ function dzialanie(){
   var a = document.getElementById("a").value;
   var b = document.getElementById("b").value; 
   var dzialanie = (a * a) + (2 * a * b) - (b * b);
-		 
-  var napis = document.getElementById("wynik").innerHTML = dzialanie;  
-
-  var napis = 0;
+  document.getElementById("wynik").innerHTML = dzialanie;  
 
   if (dzialanie > 0) {
 	console.log("Liczba jest większa od 0"); //wyswietli "Liczba jest większa od 0"
